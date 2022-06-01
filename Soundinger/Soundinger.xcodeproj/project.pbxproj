@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC6F99362847DF4F00880D88 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6F99352847DF4F00880D88 /* Tests_iOS.swift */; };
+		AC6F99382847DF4F00880D88 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6F99372847DF4F00880D88 /* Tests_iOSLaunchTests.swift */; };
+		AC6F99422847DF4F00880D88 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6F99412847DF4F00880D88 /* Tests_macOS.swift */; };
+		AC6F99442847DF4F00880D88 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6F99432847DF4F00880D88 /* Tests_macOSLaunchTests.swift */; };
+		AC6F99452847DF4F00880D88 /* SoundingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6F991D2847DF4E00880D88 /* SoundingerApp.swift */; };
+		AC6F99462847DF4F00880D88 /* SoundingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6F991D2847DF4E00880D88 /* SoundingerApp.swift */; };
+		AC6F99472847DF4F00880D88 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6F991E2847DF4E00880D88 /* MeetingView.swift */; };
+		AC6F99482847DF4F00880D88 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6F991E2847DF4E00880D88 /* MeetingView.swift */; };
+		AC6F99492847DF4F00880D88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC6F991F2847DF4F00880D88 /* Assets.xcassets */; };
+		AC6F994A2847DF4F00880D88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC6F991F2847DF4F00880D88 /* Assets.xcassets */; };
+		AC6F995B2847E47300880D88 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6F995A2847E47300880D88 /* Theme.swift */; };
+		AC6F995D2847E52400880D88 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6F995C2847E52400880D88 /* DailyScrum.swift */; };
+		AC6F99612847E5F100880D88 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6F99602847E5F100880D88 /* CardView.swift */; };
+		AC6F99632847E7D000880D88 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6F99622847E7D000880D88 /* TrailingIconLabelStyle.swift */; };
+		AC6F99652847EAD200880D88 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6F99642847EAD200880D88 /* ScrumsView.swift */; };
+		AC6F99672847F4D000880D88 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6F99662847F4D000880D88 /* DetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC6F99322847DF4F00880D88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC6F99182847DF4D00880D88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC6F99232847DF4F00880D88;
+			remoteInfo = "Soundinger (iOS)";
+		};
+		AC6F993E2847DF4F00880D88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC6F99182847DF4D00880D88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC6F99292847DF4F00880D88;
+			remoteInfo = "Soundinger (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC6F991D2847DF4E00880D88 /* SoundingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundingerApp.swift; sourceTree = "<group>"; };
+		AC6F991E2847DF4E00880D88 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
+		AC6F991F2847DF4F00880D88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC6F99242847DF4F00880D88 /* Soundinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soundinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC6F992A2847DF4F00880D88 /* Soundinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soundinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC6F992C2847DF4F00880D88 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		AC6F99312847DF4F00880D88 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC6F99352847DF4F00880D88 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		AC6F99372847DF4F00880D88 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		AC6F993D2847DF4F00880D88 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC6F99412847DF4F00880D88 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		AC6F99432847DF4F00880D88 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		AC6F995A2847E47300880D88 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		AC6F995C2847E52400880D88 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		AC6F99602847E5F100880D88 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		AC6F99622847E7D000880D88 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		AC6F99642847EAD200880D88 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		AC6F99662847F4D000880D88 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC6F99212847DF4F00880D88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC6F99272847DF4F00880D88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC6F992E2847DF4F00880D88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC6F993A2847DF4F00880D88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC6F99172847DF4D00880D88 = {
+			isa = PBXGroup;
+			children = (
+				AC6F991C2847DF4E00880D88 /* Shared */,
+				AC6F992B2847DF4F00880D88 /* macOS */,
+				AC6F99342847DF4F00880D88 /* Tests iOS */,
+				AC6F99402847DF4F00880D88 /* Tests macOS */,
+				AC6F99252847DF4F00880D88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC6F991C2847DF4E00880D88 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AC6F99592847E45600880D88 /* Models */,
+				AC6F991D2847DF4E00880D88 /* SoundingerApp.swift */,
+				AC6F99602847E5F100880D88 /* CardView.swift */,
+				AC6F991E2847DF4E00880D88 /* MeetingView.swift */,
+				AC6F991F2847DF4F00880D88 /* Assets.xcassets */,
+				AC6F99642847EAD200880D88 /* ScrumsView.swift */,
+				AC6F99662847F4D000880D88 /* DetailView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AC6F99252847DF4F00880D88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC6F99242847DF4F00880D88 /* Soundinger.app */,
+				AC6F992A2847DF4F00880D88 /* Soundinger.app */,
+				AC6F99312847DF4F00880D88 /* Tests iOS.xctest */,
+				AC6F993D2847DF4F00880D88 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC6F992B2847DF4F00880D88 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AC6F992C2847DF4F00880D88 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		AC6F99342847DF4F00880D88 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AC6F99352847DF4F00880D88 /* Tests_iOS.swift */,
+				AC6F99372847DF4F00880D88 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		AC6F99402847DF4F00880D88 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AC6F99412847DF4F00880D88 /* Tests_macOS.swift */,
+				AC6F99432847DF4F00880D88 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		AC6F99592847E45600880D88 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC6F995A2847E47300880D88 /* Theme.swift */,
+				AC6F995C2847E52400880D88 /* DailyScrum.swift */,
+				AC6F99622847E7D000880D88 /* TrailingIconLabelStyle.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC6F99232847DF4F00880D88 /* Soundinger (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC6F994D2847DF4F00880D88 /* Build configuration list for PBXNativeTarget "Soundinger (iOS)" */;
+			buildPhases = (
+				AC6F99202847DF4F00880D88 /* Sources */,
+				AC6F99212847DF4F00880D88 /* Frameworks */,
+				AC6F99222847DF4F00880D88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Soundinger (iOS)";
+			productName = "Soundinger (iOS)";
+			productReference = AC6F99242847DF4F00880D88 /* Soundinger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC6F99292847DF4F00880D88 /* Soundinger (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC6F99502847DF4F00880D88 /* Build configuration list for PBXNativeTarget "Soundinger (macOS)" */;
+			buildPhases = (
+				AC6F99262847DF4F00880D88 /* Sources */,
+				AC6F99272847DF4F00880D88 /* Frameworks */,
+				AC6F99282847DF4F00880D88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Soundinger (macOS)";
+			productName = "Soundinger (macOS)";
+			productReference = AC6F992A2847DF4F00880D88 /* Soundinger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC6F99302847DF4F00880D88 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC6F99532847DF4F00880D88 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				AC6F992D2847DF4F00880D88 /* Sources */,
+				AC6F992E2847DF4F00880D88 /* Frameworks */,
+				AC6F992F2847DF4F00880D88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC6F99332847DF4F00880D88 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = AC6F99312847DF4F00880D88 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AC6F993C2847DF4F00880D88 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC6F99562847DF4F00880D88 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				AC6F99392847DF4F00880D88 /* Sources */,
+				AC6F993A2847DF4F00880D88 /* Frameworks */,
+				AC6F993B2847DF4F00880D88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC6F993F2847DF4F00880D88 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = AC6F993D2847DF4F00880D88 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC6F99182847DF4D00880D88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					AC6F99232847DF4F00880D88 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					AC6F99292847DF4F00880D88 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					AC6F99302847DF4F00880D88 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = AC6F99232847DF4F00880D88;
+					};
+					AC6F993C2847DF4F00880D88 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = AC6F99292847DF4F00880D88;
+					};
+				};
+			};
+			buildConfigurationList = AC6F991B2847DF4D00880D88 /* Build configuration list for PBXProject "Soundinger" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC6F99172847DF4D00880D88;
+			productRefGroup = AC6F99252847DF4F00880D88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC6F99232847DF4F00880D88 /* Soundinger (iOS) */,
+				AC6F99292847DF4F00880D88 /* Soundinger (macOS) */,
+				AC6F99302847DF4F00880D88 /* Tests iOS */,
+				AC6F993C2847DF4F00880D88 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC6F99222847DF4F00880D88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC6F99492847DF4F00880D88 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC6F99282847DF4F00880D88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC6F994A2847DF4F00880D88 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC6F992F2847DF4F00880D88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC6F993B2847DF4F00880D88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC6F99202847DF4F00880D88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC6F995D2847E52400880D88 /* DailyScrum.swift in Sources */,
+				AC6F99672847F4D000880D88 /* DetailView.swift in Sources */,
+				AC6F99632847E7D000880D88 /* TrailingIconLabelStyle.swift in Sources */,
+				AC6F995B2847E47300880D88 /* Theme.swift in Sources */,
+				AC6F99652847EAD200880D88 /* ScrumsView.swift in Sources */,
+				AC6F99472847DF4F00880D88 /* MeetingView.swift in Sources */,
+				AC6F99452847DF4F00880D88 /* SoundingerApp.swift in Sources */,
+				AC6F99612847E5F100880D88 /* CardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC6F99262847DF4F00880D88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC6F99482847DF4F00880D88 /* MeetingView.swift in Sources */,
+				AC6F99462847DF4F00880D88 /* SoundingerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC6F992D2847DF4F00880D88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC6F99382847DF4F00880D88 /* Tests_iOSLaunchTests.swift in Sources */,
+				AC6F99362847DF4F00880D88 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC6F99392847DF4F00880D88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC6F99442847DF4F00880D88 /* Tests_macOSLaunchTests.swift in Sources */,
+				AC6F99422847DF4F00880D88 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC6F99332847DF4F00880D88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC6F99232847DF4F00880D88 /* Soundinger (iOS) */;
+			targetProxy = AC6F99322847DF4F00880D88 /* PBXContainerItemProxy */;
+		};
+		AC6F993F2847DF4F00880D88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC6F99292847DF4F00880D88 /* Soundinger (macOS) */;
+			targetProxy = AC6F993E2847DF4F00880D88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC6F994B2847DF4F00880D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC6F994C2847DF4F00880D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AC6F994E2847DF4F00880D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krumble.Soundinger;
+				PRODUCT_NAME = Soundinger;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC6F994F2847DF4F00880D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krumble.Soundinger;
+				PRODUCT_NAME = Soundinger;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC6F99512847DF4F00880D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krumble.Soundinger;
+				PRODUCT_NAME = Soundinger;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AC6F99522847DF4F00880D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krumble.Soundinger;
+				PRODUCT_NAME = Soundinger;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AC6F99542847DF4F00880D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.krumble.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Soundinger (iOS)";
+			};
+			name = Debug;
+		};
+		AC6F99552847DF4F00880D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.krumble.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Soundinger (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC6F99572847DF4F00880D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.krumble.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Soundinger (macOS)";
+			};
+			name = Debug;
+		};
+		AC6F99582847DF4F00880D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.krumble.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Soundinger (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC6F991B2847DF4D00880D88 /* Build configuration list for PBXProject "Soundinger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC6F994B2847DF4F00880D88 /* Debug */,
+				AC6F994C2847DF4F00880D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC6F994D2847DF4F00880D88 /* Build configuration list for PBXNativeTarget "Soundinger (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC6F994E2847DF4F00880D88 /* Debug */,
+				AC6F994F2847DF4F00880D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC6F99502847DF4F00880D88 /* Build configuration list for PBXNativeTarget "Soundinger (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC6F99512847DF4F00880D88 /* Debug */,
+				AC6F99522847DF4F00880D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC6F99532847DF4F00880D88 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC6F99542847DF4F00880D88 /* Debug */,
+				AC6F99552847DF4F00880D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC6F99562847DF4F00880D88 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC6F99572847DF4F00880D88 /* Debug */,
+				AC6F99582847DF4F00880D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC6F99182847DF4D00880D88 /* Project object */;
+}
